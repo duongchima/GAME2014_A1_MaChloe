@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 219453138247751299}
   - component: {fileID: 2516858116628853456}
   - component: {fileID: 3358531098460985352}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75,7 +75,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8845373743692034422}
   - component: {fileID: 8845373743692034423}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wing Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -159,7 +159,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8845373744262729946}
   - component: {fileID: 8845373744262729947}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Mount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -246,7 +246,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8845373744876782327}
   - component: {fileID: 8845373744876782324}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wing Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -330,7 +330,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8845373745019593733}
   - component: {fileID: 8845373745019593978}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -415,9 +415,9 @@ GameObject:
   - component: {fileID: 8845373745087624747}
   - component: {fileID: 8251177030782226018}
   - component: {fileID: -6171050145893779408}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: WeakMeleeEnemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -472,5 +472,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  player: {fileID: 7219538680276730318, guid: a3d31f499e2197448817554fc2e8725e, type: 3}
   minimumDistance: 2
+  maxHealth: 100

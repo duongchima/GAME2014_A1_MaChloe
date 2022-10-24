@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8048384183834010082}
   - component: {fileID: 1244293462468914679}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68,7 +68,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4072521503710346086}
   - component: {fileID: 4072521503710346089}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Leg Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -152,7 +152,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4072521504011041950}
   - component: {fileID: 4072521504011041889}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Arm Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -236,7 +236,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4072521504906609963}
   - component: {fileID: 4072521504906609962}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -324,9 +324,9 @@ GameObject:
   - component: {fileID: 4072521505062543146}
   - component: {fileID: 203955245482455126}
   - component: {fileID: 8842975764058707555}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: NormalMeleeEnemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -383,8 +383,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  player: {fileID: 7219538680276730318, guid: a3d31f499e2197448817554fc2e8725e, type: 3}
   minimumDistance: 2
+  maxHealth: 100
 --- !u!1 &4072521505546023313
 GameObject:
   m_ObjectHideFlags: 0
@@ -395,7 +395,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4072521505546023312}
   - component: {fileID: 4072521505546023315}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -479,7 +479,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4072521505799254433}
   - component: {fileID: 4072521505799254432}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Leg Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -563,7 +563,7 @@ GameObject:
   m_Component:
   - component: {fileID: 204995765245833483}
   - component: {fileID: 1949798013492479376}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Arm Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}

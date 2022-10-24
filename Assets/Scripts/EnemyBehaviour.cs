@@ -7,6 +7,8 @@ public class EnemyBehaviour : MonoBehaviour
     public float speed;
     [SerializeField]
     private float minimumDistance;
+    public int maxHealth = 100;
+    private int currentHealth;
     //[SerializeField]
     //private bool meleeAttacker;
 
@@ -21,7 +23,7 @@ public class EnemyBehaviour : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        currentHealth = maxHealth;
     }
     // Update is called once per frame
     void Update()
@@ -41,5 +43,16 @@ public class EnemyBehaviour : MonoBehaviour
         }
 
     }
- 
+    public void TakeDamage(int dmg)
+    {
+        currentHealth -= dmg;
+        if(currentHealth <= 0)
+        {
+            Die();
+        }
+    }
+    void Die()
+    {
+        Destroy(this.gameObject);
+    }
 }
